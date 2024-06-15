@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 app.get('/hello',(req,res) =>{
-  res.send('<h4>say hello</h4>')
+  res.send('<h4>say heldlo</h4>')
 })
 app.listen(process.env.port, () => {
   console.log(`Example app listening on port ${process.env.port}`)
